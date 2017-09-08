@@ -1,0 +1,12 @@
+[package]
+name = "mcp2210_bindings"
+version = "0.1.0"
+authors = ["Erlend Langseth <3rlendhl@gmail.com>"]
+build = "build.rs"
+
+[dependencies]
+
+
+[build-dependencies]
+bindgen = "0.26.3"
+gcc = "0.3.53"
